@@ -11,11 +11,11 @@ orzata.version('0.4.6')
 if( orzata.init ) {
 
   mkdir('./src');
-  cp( __dirname + '/mandorla/index.js', './index.js');
+  cp( __dirname + '/boilerplate/index.js', './index.js');
 
   mkdir('./src/configurations');
-  cp( __dirname + '/mandorla/configurations/develop.json', './src/configurations/develop.json');
-  cp( __dirname + '/mandorla/configurations/production.json', './src/configurations/production.json');
+  cp( __dirname + '/boilerplate/configurations/develop.json', './src/configurations/develop.json');
+  cp( __dirname + '/boilerplate/configurations/production.json', './src/configurations/production.json');
 
   mkdir('./src/controllers');
   mkdir('./src/models');
