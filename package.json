@@ -1,0 +1,22 @@
+{
+  "name": "mandorla-cli",
+  "version": "0.0.1",
+  "description": "Command line tool for mandorla",
+  "main": "mandorla-cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orzata/mandorla-cli.git"
+  },
+  "author": "Sabato Luca 'noidhoon' Guadagno <noidhoon@gmail.com> (https://noidhoon.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/orzata/mandorla-cli/issues"
+  },
+  "homepage": "https://github.com/orzata/mandorla-cli#readme",
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
+}
