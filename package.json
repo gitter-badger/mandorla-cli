@@ -1,10 +1,13 @@
 {
   "name": "mandorla-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Command line tool for mandorla",
   "main": "mandorla-cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "mandorla-cli": "./mandorla-cli.js"
   },
   "repository": {
     "type": "git",
