@@ -9,8 +9,8 @@ var nconf = mandorla.nconf;
 var mongoose = mandorla.mongoose;
 var application = mandorla.application;
 
-application.get('/', function( request, response ) {
-  response.send('Hello mandorla');
+application.get('/', function(request, response) {
+  response.render('templates/template');
 });
 
-application.listen( nconf.get('express:port'), nconf.get('express:host') );
+application.listen(nconf.get('express:port'), nconf.get('express:host'));
